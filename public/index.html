@@ -4,26 +4,50 @@
     <meta charset="UTF-8">
     <title>Open Health Labs</title>
     <style>
+        body {
+            font-family: Helvetica, sans-serif;
+        }
         #under-development-wrapper {
-            /* height: 40vh; */
-            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin: 10%;
-            /* border-style: solid; */
-            /* border-color: aqua; */
-            background: #73AD21;
+            margin-top: 10%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            background: #3681FC;
             border-radius: 20px;
             padding: 30px;
             text-align: center;
             color: white;
-
+        }
+        #links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 2%;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-bottom: 2%;
+            font-size: 17px;
+        }
+        .links-button {
+            font-size: medium;
+            background: #3681FC;
+            color: white;
+            padding: 30px;
+            border-radius: 20px;
+            width: 30%
         }
     </style>
 </head>
+
 <body>
     <div id="under-development-wrapper">
-        <h1>Welcome to Open Health Labs!</h1>
-        <h1>This site is currently under development...</h1>
-        <h1>We thank you for your patience</h1>
+        <h2>Welcome to Open Health Labs!</h2>
+        <h3>This site is currently under development...</h3>
+        <h4>We thank you for your patience</h4>
+    </div>
+    <div id="links">
+        <button onclick="location.href='https://docs.openhealthlabs.com';" class="links-button">Docs</button>
+        <button onclick="location.href='https://github.com/Open-Health-Labs';" class="links-button">Github</button>
+        <button onclick="location.href='https://github.com/Open-Health-Labs/openhealthlabs.com';" class="links-button">Contribute</button>
     </div>
 </body>
 </html>
