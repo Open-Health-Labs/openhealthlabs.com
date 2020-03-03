@@ -3,51 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <title>Open Health Labs</title>
-    <style>
-        body {
-            font-family: Helvetica, sans-serif;
-        }
-        #under-development-wrapper {
-            margin-top: 10%;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-bottom: 2%;
-            background: #3681FC;
-            border-radius: 20px;
-            padding: 30px;
-            text-align: center;
-            color: white;
-        }
-        #links {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 2%;
-            margin-left: 10%;
-            margin-right: 10%;
-            margin-bottom: 2%;
-            font-size: 17px;
-        }
-        .links-button {
-            font-size: medium;
-            background: #3681FC;
-            color: white;
-            padding: 30px;
-            border-radius: 20px;
-            width: 30%
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="assets/openHealthLab.ico">
 </head>
 
 <body>
-    <div id="under-development-wrapper">
-        <h2>Welcome to Open Health Labs!</h2>
-        <h3>This site is currently under development...</h3>
-        <h4>We thank you for your patience</h4>
-    </div>
-    <div id="links">
-        <button onclick="location.href='https://docs.openhealthlabs.com';" class="links-button">Docs</button>
-        <button onclick="location.href='https://github.com/Open-Health-Labs';" class="links-button">Github</button>
-        <button onclick="location.href='https://github.com/Open-Health-Labs/openhealthlabs.com';" class="links-button">Contribute</button>
+    <div class="body">
+        <!-- Header -->
+        <div class="header">
+            <div class="headerContainer">
+                <div class="headerLeftColumn">
+                    <div class="headerLogo">
+                        <div class="desktopLogo">
+                            <div class="logoLink">
+                                <!-- Logo -->
+                                <div class="tooltipContainer">
+                                    <div class="avatarFrame">
+                                        <img class="avatar" src="assets/openHealthLab.png">
+                                    </div>
+                                </div>
+                                <!-- Title -->
+                                <div class=logoDisplayNameContainer>
+                                    <span class=textContentFamilyspaceNameText>
+                                        Open Health Labs
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="headerInnerWrapper">
+                    <div class="headerInner">
+                        <div class="link">
+                            <a class=linkButton href="https://openhealthlabs.com">
+                                <span class="textContentFamilytext">
+                                    <span class="textContentFamily">
+                                        Website
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a class=linkButton href="https://github.com/Open-Health-Labs">
+                                <span class="textContentFamilytext">
+                                    <span class="textContentFamily">
+                                        Github
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="link">
+                            <a class=linkButton href="https://docs.openhealthlabs.com/">
+                                <span class="textContentFamilytext">
+                                    <span class="textContentFamily">
+                                        Docs
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Content -->
     </div>
 </body>
 </html>
