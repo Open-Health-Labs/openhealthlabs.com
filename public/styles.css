@@ -501,4 +501,19 @@ input[type="search"] {
   font-weight: 500;
   line-height: 1.5;
 }
+.content {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5%;
+  margin: 20px auto;
+  width: 60vw;
+  /* height: 800px; */
+  box-shadow: 3px 3px 8px 3px rgba(116, 129, 141, 0.2);
+}
+.content h1 {
+  color: #3884FF;
+}
 
