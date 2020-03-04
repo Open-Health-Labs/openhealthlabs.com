@@ -1,59 +1,4 @@
 
-@font-face {
-    font-family: "Roboto";
-    src: local("Roboto"), local("Roboto-Regular"), url(https://static.gitbook.com/fonts/fc3d4b35e4d07d4e0485cc2db0e57c77.woff) format('woff');
-    font-weight: 400;
-    font-display: fallback;
-}
-@font-face {
-    font-family: "Roboto";
-    src: local("Roboto Medium"), local("Roboto-Medium"), url(https://static.gitbook.com/fonts/f4fa50c4003f87e7dc10459e500933c3.woff) format('woff');
-    font-weight: 500;
-    font-display: fallback;
-}
-@font-face {
-    font-family: "Roboto";
-    src: local("Roboto Bold"), local("Roboto-Bold"), url(https://static.gitbook.com/fonts/72e37e5bf95a8dba938c78b1d7d91253.woff) format('woff');
-    font-weight: 700;
-    font-display: fallback;
-}
-@font-face {
-    font-family: "Content-font";
-    src: local("Roboto"), local("Roboto-Regular"), url(https://static.gitbook.com/fonts/fc3d4b35e4d07d4e0485cc2db0e57c77.woff) format('woff');
-    font-weight: 400;
-    font-display: fallback;
-}
-@font-face {
-    font-family: "Content-font";
-    src: local("Roboto Medium"), local("Roboto-Medium"), url(https://static.gitbook.com/fonts/f4fa50c4003f87e7dc10459e500933c3.woff) format('woff');
-    font-weight: 500;
-    font-display: fallback;
-}
-@font-face {
-    font-family: "Content-font";
-    src: local("Roboto Bold"), local("Roboto-Bold"), url(https://static.gitbook.com/fonts/72e37e5bf95a8dba938c78b1d7d91253.woff) format('woff');
-    font-weight: 700;
-    font-display: fallback;
-}
-
-body {
-  color: #242A31;
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  font-size: 15px;
-  background: #F5F7F9;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-  line-height: 1em;
-  font-smoothing: antialiased;
-  text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
 @media screen and (min-width: 768px) {
   html, body {
     text-rendering: optimizeLegibility;
@@ -68,11 +13,6 @@ body {
   outline: none;
   box-sizing: inherit;
 }
-@font-face {
-  font-family: "Flow-Rounded";
-  src: url("https://static.gitbook.com/fonts/bfc0a96537ceb0cad9e956b9f980fe88.woff") format('woff');
-  font-display: block;
-}
 input, select, textarea {
   font-size: 16px;
 }
@@ -82,31 +22,8 @@ input, select, textarea, button {
 input[type="search"] {
   -webkit-appearance: none;
 }
-.draggingElement, .draggingElement *:hover {
-  cursor: grabbing !important;
-  pointer-events: auto !important;
-}
-.draggingElement .draggingHidden {
-  display: none;
-}
-
-.body {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  color: #242A31;
-  width: 100%;
-  margin: 0;
-  display: flex;
-  padding: 0;
-  background: #F5F7F9;
-  min-height: 100vh;
-  flex-direction: column;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-}
 .header{
+  box-sizing: border-box;
   display: -webkit-box;
   height: 80px;
   margin: 0;
@@ -501,19 +418,3 @@ input[type="search"] {
   font-weight: 500;
   line-height: 1.5;
 }
-.content {
-  background-color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border-radius: 20px;
-  padding: 5%;
-  margin: 20px auto;
-  width: 60vw;
-  /* height: 800px; */
-  box-shadow: 3px 3px 8px 3px rgba(116, 129, 141, 0.2);
-}
-.content h1 {
-  color: #3884FF;
-}
-
