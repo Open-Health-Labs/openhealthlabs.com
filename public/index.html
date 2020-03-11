@@ -3,14 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Open Health Labs</title>
-    <link rel="stylesheet" type="text/css" href="styles/mainStyles.css">
-    <link rel="stylesheet" type="text/css" href="styles/headerStyles.css">
-    <link rel="stylesheet" type="text/css" href="styles/contentStyles.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/header.css">
+    <link rel="stylesheet" type="text/css" href="styles/content.css">
     <link rel="shortcut icon" href="assets/openHealthLab.ico">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159582387-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-159582387-1');
+    </script>
 </head>
 
 <body>
-    <!-- class="body">
+    <div class="body">
         <!-- Header -->
         <div class="header">
             <div class="headerContainer">
@@ -72,6 +80,13 @@
             <h1>Open Health Labs</h1>
             <p>Open Source Medical Technologies designed for easy access to drive global health</p>
         </div>
-    </!-->
+        <div class="content">
+            <h1>Ventilator</h1>
+            <p>
+                This project focuses on developing a simple, cheap, and effective mechanical ventilator that is quickly mass producable using common manufacturing techniques
+                The goal is to design the mechanical ventilator in such a way that it is both mass manufacturable and easily made at home in an emergency.
+            </p>
+        </div>
+    </div>
 </body>
 </html>
